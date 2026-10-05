@@ -1,0 +1,11 @@
+[book]
+title = "Learn-DSA"
+authors = ["Mohammed-Saajid"]
+language = "en"
+
+[output.html]
+theme = "theme"
+mathjax-support = true
+
+[build]
+build-dir = "book"
