@@ -6,6 +6,16 @@ language = "en"
 [output.html]
 theme = "theme"
 mathjax-support = true
+additional-js = ["mermaid.min.js", "mermaid-init.js", "langtabs.js"]
+additional-css = ["langtabs.css"]
 
 [build]
 build-dir = "book"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.langtabs]
+command = "mdbook-langtabs"
