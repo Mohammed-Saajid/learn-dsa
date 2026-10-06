@@ -28,20 +28,15 @@ A **Graph** is a non-linear data structure consisting of a finite set of **Verti
 
 ## Graph Classification
 
-```
-                             ┌─────────────────┐
-                             │   Graph Types            │
-                             └────────┬────────┘
-                                                  │
-         ┌─────────────────┴─────────────────┐
-         ▼                                                                                 ▼
-  ┌──────────────┐                                    ┌──────────────┐
-  │  Direction          │                                    │    Weights             │
-  └──────┬───────┘                                    └──────┬───────┘
-         ├──────────────┐                             ├──────────────┐
-         ▼                                ▼                             ▼                                 ▼
-   Undirected        Directed           Unweighted              Weighted
-
+```mermaid
+flowchart TB
+    A[Graph Types]
+    A --> B[Direction]
+    A --> C[Weights]
+    B --> D[Undirected]
+    B --> E[Directed]
+    C --> F[Unweighted]
+    C --> G[Weighted]
 ```
 
 ### 1. By Directionality
