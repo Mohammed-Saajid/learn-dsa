@@ -28,8 +28,7 @@ jobs:
         uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: 'latest'
-          # If you use mdbook plugins (like mdbook-toc or mdbook-mermaid), specify them here:
-          # mdbook-deps: 'mdbook-toc'
+          mdbook-deps: 'mdbook-mermaid mdbook-langtabs'
 
       - name: Build mdBook
         run: mdbook build
