@@ -9,6 +9,8 @@
         - [Invert a Binary Tree](trees/problems/BinaryTreeInvert.md)
         - [Maximum Depth of a Binary Tree](trees/problems/BinaryTreeDepth.md)
         - [Diameter of a Binary Tree](trees/problems/BinaryTreeDiameter.md)
+        - [Balanced Binary Tree](trees/problems/BalancedBinaryTree.md)
+        - [Same Tree](trees/problems/SameTree.md)
 
 - [Graphs](graphs/explanation/Readme.md)
     - [Representation](graphs/explanation/representation.md)
